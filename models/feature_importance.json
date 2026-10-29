@@ -1,0 +1,126 @@
+{
+  "task_a": [
+    {
+      "feature": "src_bytes",
+      "importance": 0.6401
+    },
+    {
+      "feature": "service_ecr_i",
+      "importance": 0.0875
+    },
+    {
+      "feature": "diff_srv_rate",
+      "importance": 0.0795
+    },
+    {
+      "feature": "service_http",
+      "importance": 0.0422
+    },
+    {
+      "feature": "hot",
+      "importance": 0.0405
+    },
+    {
+      "feature": "dst_bytes",
+      "importance": 0.0299
+    },
+    {
+      "feature": "dst_host_same_src_port_rate",
+      "importance": 0.0239
+    },
+    {
+      "feature": "service_ftp_data",
+      "importance": 0.013
+    },
+    {
+      "feature": "dst_host_srv_count",
+      "importance": 0.0071
+    },
+    {
+      "feature": "duration",
+      "importance": 0.0061
+    },
+    {
+      "feature": "dst_host_srv_serror_rate",
+      "importance": 0.0044
+    },
+    {
+      "feature": "service_private",
+      "importance": 0.0037
+    },
+    {
+      "feature": "dst_host_diff_srv_rate",
+      "importance": 0.0036
+    },
+    {
+      "feature": "dst_host_serror_rate",
+      "importance": 0.0025
+    },
+    {
+      "feature": "count",
+      "importance": 0.0024
+    }
+  ],
+  "task_b": [
+    {
+      "feature": "dst_bytes",
+      "importance": 0.4142
+    },
+    {
+      "feature": "dst_host_same_srv_rate",
+      "importance": 0.1776
+    },
+    {
+      "feature": "protocol_type_udp",
+      "importance": 0.1206
+    },
+    {
+      "feature": "src_bytes",
+      "importance": 0.0891
+    },
+    {
+      "feature": "protocol_type_tcp",
+      "importance": 0.0517
+    },
+    {
+      "feature": "dst_host_srv_count",
+      "importance": 0.0342
+    },
+    {
+      "feature": "dst_host_same_src_port_rate",
+      "importance": 0.0287
+    },
+    {
+      "feature": "count",
+      "importance": 0.0171
+    },
+    {
+      "feature": "srv_diff_host_rate",
+      "importance": 0.0125
+    },
+    {
+      "feature": "is_guest_login",
+      "importance": 0.011
+    },
+    {
+      "feature": "same_srv_rate",
+      "importance": 0.006
+    },
+    {
+      "feature": "dst_host_diff_srv_rate",
+      "importance": 0.004
+    },
+    {
+      "feature": "dst_host_rerror_rate",
+      "importance": 0.0037
+    },
+    {
+      "feature": "diff_srv_rate",
+      "importance": 0.0036
+    },
+    {
+      "feature": "flag_RSTO",
+      "importance": 0.0035
+    }
+  ]
+}

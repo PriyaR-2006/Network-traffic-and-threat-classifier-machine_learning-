@@ -1,0 +1,390 @@
+{
+  "task_a": {
+    "decision_tree": {
+      "accuracy": 0.7827,
+      "precision_weighted": 0.8386,
+      "recall_weighted": 0.7827,
+      "f1_weighted": 0.7806,
+      "precision_macro": 0.8183,
+      "recall_macro": 0.8054,
+      "f1_macro": 0.7821,
+      "predict_time": 0.0803,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "confusion_matrix": [
+        [
+          9411,
+          300
+        ],
+        [
+          4598,
+          8235
+        ]
+      ],
+      "train_time": 3.3336
+    },
+    "svm": {
+      "accuracy": 0.7725,
+      "precision_weighted": 0.8339,
+      "recall_weighted": 0.7725,
+      "f1_weighted": 0.7696,
+      "precision_macro": 0.8128,
+      "recall_macro": 0.7966,
+      "f1_macro": 0.7716,
+      "predict_time": 7.6967,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "confusion_matrix": [
+        [
+          9420,
+          291
+        ],
+        [
+          4837,
+          7996
+        ]
+      ],
+      "train_time": 8.2021
+    },
+    "naive_bayes": {
+      "accuracy": 0.5664,
+      "precision_weighted": 0.7714,
+      "recall_weighted": 0.5664,
+      "f1_weighted": 0.508,
+      "precision_macro": 0.7382,
+      "recall_macro": 0.6183,
+      "f1_macro": 0.5269,
+      "predict_time": 0.1417,
+      "classes": [
+        "0",
+        "1"
+      ],
+      "confusion_matrix": [
+        [
+          9641,
+          70
+        ],
+        [
+          9705,
+          3128
+        ]
+      ],
+      "train_time": 0.9289
+    }
+  },
+  "task_b": {
+    "decision_tree": {
+      "accuracy": 0.8408,
+      "precision_weighted": 0.8566,
+      "recall_weighted": 0.8408,
+      "f1_weighted": 0.8339,
+      "precision_macro": 0.659,
+      "recall_macro": 0.7421,
+      "f1_macro": 0.6719,
+      "predict_time": 0.0747,
+      "classes": [
+        "daytime",
+        "domain_u",
+        "ftp",
+        "ftp_data",
+        "http",
+        "other",
+        "smtp",
+        "telnet"
+      ],
+      "confusion_matrix": [
+        [
+          7,
+          0,
+          2,
+          0,
+          0,
+          19,
+          0,
+          0
+        ],
+        [
+          0,
+          885,
+          0,
+          0,
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          1,
+          0,
+          544,
+          0,
+          3,
+          124,
+          4,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          803,
+          2,
+          39,
+          0,
+          7
+        ],
+        [
+          0,
+          0,
+          0,
+          4,
+          7714,
+          66,
+          69,
+          0
+        ],
+        [
+          28,
+          820,
+          130,
+          73,
+          419,
+          7729,
+          256,
+          211
+        ],
+        [
+          0,
+          0,
+          4,
+          8,
+          20,
+          19,
+          881,
+          2
+        ],
+        [
+          3,
+          0,
+          10,
+          171,
+          545,
+          167,
+          337,
+          393
+        ]
+      ],
+      "train_time": 3.6292
+    },
+    "svm": {
+      "accuracy": 0.8295,
+      "precision_weighted": 0.8444,
+      "recall_weighted": 0.8295,
+      "f1_weighted": 0.8028,
+      "precision_macro": 0.6722,
+      "recall_macro": 0.6561,
+      "f1_macro": 0.6026,
+      "predict_time": 17.2251,
+      "classes": [
+        "daytime",
+        "domain_u",
+        "ftp",
+        "ftp_data",
+        "http",
+        "other",
+        "smtp",
+        "telnet"
+      ],
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0,
+          28,
+          0,
+          0
+        ],
+        [
+          0,
+          830,
+          0,
+          0,
+          0,
+          64,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          544,
+          12,
+          0,
+          131,
+          5,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          732,
+          0,
+          119,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          19,
+          7677,
+          104,
+          53,
+          0
+        ],
+        [
+          0,
+          639,
+          0,
+          91,
+          662,
+          8095,
+          176,
+          3
+        ],
+        [
+          0,
+          0,
+          0,
+          11,
+          122,
+          27,
+          774,
+          0
+        ],
+        [
+          0,
+          0,
+          374,
+          61,
+          273,
+          842,
+          27,
+          49
+        ]
+      ],
+      "train_time": 17.393
+    },
+    "naive_bayes": {
+      "accuracy": 0.4985,
+      "precision_weighted": 0.7114,
+      "recall_weighted": 0.4985,
+      "f1_weighted": 0.497,
+      "precision_macro": 0.4751,
+      "recall_macro": 0.6328,
+      "f1_macro": 0.3997,
+      "predict_time": 0.201,
+      "classes": [
+        "daytime",
+        "domain_u",
+        "ftp",
+        "ftp_data",
+        "http",
+        "other",
+        "smtp",
+        "telnet"
+      ],
+      "confusion_matrix": [
+        [
+          27,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          890,
+          0,
+          0,
+          0,
+          4,
+          0,
+          0
+        ],
+        [
+          29,
+          0,
+          648,
+          1,
+          0,
+          1,
+          2,
+          11
+        ],
+        [
+          60,
+          0,
+          63,
+          219,
+          256,
+          4,
+          249,
+          0
+        ],
+        [
+          90,
+          0,
+          36,
+          12,
+          7114,
+          501,
+          71,
+          29
+        ],
+        [
+          5171,
+          1575,
+          409,
+          81,
+          735,
+          1518,
+          174,
+          3
+        ],
+        [
+          19,
+          0,
+          3,
+          1,
+          157,
+          2,
+          747,
+          5
+        ],
+        [
+          72,
+          0,
+          995,
+          297,
+          98,
+          73,
+          16,
+          75
+        ]
+      ],
+      "train_time": 0.8544
+    }
+  }
+}
